@@ -4,18 +4,18 @@ A modern full-stack application for intelligent invoice processing and data extr
 
 ## Features
 
-- 📄 **PDF Upload** - Drag-and-drop PDF invoice upload interface
-- 🔍 **AWS Textract Integration** - Enterprise-grade OCR using AWS Textract AnalyzeExpense API
-- 📊 **Data Extraction** - Extracts structured line items with fields:
+-  **PDF Upload** - Drag-and-drop PDF invoice upload interface
+-  **AWS Textract Integration** - Enterprise-grade OCR using AWS Textract AnalyzeExpense API
+-  **Data Extraction** - Extracts structured line items with fields:
   - Item name and category
   - HSN Code (Indian tax classification)
   - Quantity and unit
   - Unit rate and total amount
   - GST percentage
-- 💾 **SQLite Database** - Persistent storage of extracted data
-- 🎯 **Real-time Progress** - Step-by-step processing status tracking
-- 📱 **Responsive UI** - Beautiful, responsive React + Vite frontend
-- 🔐 **CORS Enabled** - Secure cross-origin requests
+-  **SQLite Database** - Persistent storage of extracted data
+-  **Real-time Progress** - Step-by-step processing status tracking
+-  **Responsive UI** - Beautiful, responsive React + Vite frontend
+-  **CORS Enabled** - Secure cross-origin requests
 
 ## Project Structure
 
