@@ -364,3 +364,6 @@ For issues or questions:
 
 **Last Updated**: May 2024
 **Version**: 1.0.0
+
+# OCR-For-Sage-Technologies
+2026 ERP OCR Portal. Design and Developed by Shouray Soni.
