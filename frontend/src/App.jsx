@@ -5,8 +5,9 @@ import ProcessingStatus from './components/ProcessingStatus';
 import ExtractedTable from './components/ExtractedTable';
 import './App.css';
 
-const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || 'https://ocr-for-sage-technologies.onrender.com';
+const API_BASE_URL = (
+  import.meta.env.VITE_API_BASE_URL || 'https://ocr-for-sage-technologies.onrender.com'
+).replace(/\/+$/, '');
 
 function App() {
   // State management
